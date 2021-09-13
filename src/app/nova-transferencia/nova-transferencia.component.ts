@@ -15,5 +15,11 @@ export class NovaTransferenciaComponent {
   transferir(): void {
     const valorEmitir = { valor: this.valor, destino: this.destino };
     this.aotransferi.emit(valorEmitir);
+    this.limparInput();
+  }
+
+  limparInput(): void {
+    this.valor = 0;
+    this.destino = 0;
   }
 }
