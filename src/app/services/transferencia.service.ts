@@ -29,10 +29,6 @@ export class TransferenciaService {
     return this.http.post<Transferencia>(this.url, transferencia);
   }
 
-  adicionar(transferencia: any) {
-    this.listaTransferencia.push(transferencia);
-  }
-
   private hidratar(transferencia: any) {
     transferencia.data = new Date();
   }
