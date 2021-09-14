@@ -1,27 +1,57 @@
-# Bytebank
+# ByteBank
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.4.
+## ℹ️ Sobre o projeto
 
-## Development server
+Nesse projeto desenvolvi uma aplicação que salva dados de transferencias a um servidor feito com o json-server.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## ✨ demonstração
 
-## Code scaffolding
+</br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<video width="600" controls autoplay src="https://i.gyazo.com/7ed1ec08d685394e0f1e427d7c4fc0f8.mp4">
+ 
+</video>
 
-## Build
+</br>
+</br>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🎯 Objetivo do projeto
 
-## Running unit tests
+Foi realizado este projeto com o intuito de adquerir conhecimentos sobre o framework Angular.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📝 Tecnologias
 
-## Running end-to-end tests
+Para a realização desse projeto foi utilizado as seguintes tecnologias/linguagens:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- [Angular](https://angular.io/) Angular is a platform for building mobile and desktop web applications
+- [JSON Server](https://www.npmjs.com/package/json-server?activeTab=explore) Get a full fake REST API with zero coding in less than 30 seconds
+- [TypeScript](https://www.typescriptlang.org/) Typed JavaScript at Any Scale.
 
-## Further help
+## ⚙️ Instalação
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para que este rode em sua máquina, siga os passos abaixo:
+
+```bash
+# Clone o repositório em alguma pasta em sua máquina
+$ git clone https://github.com/Diegooliveyra/ByteBank.git
+
+# Entre no repositório
+$ cd Bytebank
+
+Instale as dependencias digitando no termimal:
+$ npm install
+
+Rode a aplicação no modo de desenvolvimento.
+$ npm start
+
+Rode a servidor no modo de desenvolvimento.
+$ cd dados
+$ json-server --watch db.json
+
+Abra http://localhost:4200 no seu navegador para visualizar o projeto
+```
+
+## 📝 Licença
+
+<p>O projeto se encontra sob licença MIT. Para mais detalhes, acesse <a href='LICENSE'>license<a>.</p>
+<p>Criado com 💙 por <a href='https://github.com/Diegooliveyra/' target='blank'>Diego Oliveira</a></p>
