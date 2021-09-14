@@ -8,10 +8,7 @@ Nesse projeto desenvolvi uma aplicação que salva dados de transferencias a um 
 
 </br>
 
-<video width="600" controls autoplay src="https://i.gyazo.com/7ed1ec08d685394e0f1e427d7c4fc0f8.mp4">
- 
-</video>
-
+<img src=".github/layout.gif"/>
 </br>
 </br>
 
