@@ -7,9 +7,5 @@ import { TransferenciaService } from './services/transferencia.service';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  constructor(private service: TransferenciaService) {}
-
-  transferir($event: any) {
-    this.service.adicionar($event);
-  }
+  constructor() {}
 }
